@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="library" />
+        <module name="worldguard6" />
+        <module name="worldguard7" />
+        <module name="wrapper-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api" target="8" />
+      <module name="implementation" target="8" />
+      <module name="v6" target="8" />
+      <module name="WorldGuard" target="8" />
+      <module name="worldguard-api" target="8" />
+      <module name="WorldGuard6" target="8" />
+      <module name="WorldGuard7" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
