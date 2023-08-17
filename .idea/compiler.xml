@@ -6,10 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="worldguardwrapper-api" />
         <module name="library" />
         <module name="worldguard6" />
         <module name="worldguard7" />
         <module name="wrapper-api" />
+        <module name="worldguardwrapper-worldguard7" />
+        <module name="worldguardwrapper-worldguard6" />
+        <module name="worldguardwrapper-library" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
